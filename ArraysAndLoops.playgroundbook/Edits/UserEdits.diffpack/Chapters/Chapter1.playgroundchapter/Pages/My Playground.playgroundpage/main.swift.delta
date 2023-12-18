@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//
+//let numbers = [1, 2, 3, 4, 5]
+//print(numbers)
+//
+//for num in numbers {
+//    print(num * 100)
+//}
+//
+//var totalOfNumbers = Int()
+//
+//for num in numbers {
+//    totalOfNumbers += num
+//}
+//
+//print("The total of the numbers array is \(totalOfNumbers)")
+
+let areaClimates = ["Chicago": "Windy", 
+                     "Florida": "Hurricany", 
+                     "Seattle": "Rainy", 
+                     "Arizona": "HOT!"]
+
+print(areaClimates)
+
+for area in areaClimates {
+    print(area.key)
+    print(area.value)
+}
+
+for area in areaClimates {
+    if area.value == "Windy" {
+        print("\(area.key) is windy")
+    }
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 629}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

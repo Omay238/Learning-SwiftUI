@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Strings Hackwich
+
+let greeting = "Hello"
+let firstName: String = "Omay"
+let lastName: String = "Maculo"
+let fullName = firstName + " " + lastName
+//print(fullName)
+let age: Int = 14
+let currentTown: String = "Fort Collins"
+let sentence = fullName + " is \(age) years old, and currently lives in " + currentTown + "."
+//print(sentence)
+
+//How to seperate lines in strings
+let twoLines = firstName + "\n" + lastName
+//print(twoLines)
+
+//Converting strings from TextFields
+let numberStoredAsString = "72"
+let actualNumber = Int(numberStoredAsString)!
+//print(actuaNumber)
+
+//Use ! at end of line to convert
+//Don't use ! to keep it as optional
+
+let anotherNumberAsString = "7.56"
+if let actualNumberTwo = Double(anotherNumberAsString) {
+//    print(actualNumberTwo)
+}
+
+// Methods for Strings
+// .count
+let numberLetters = firstName.count
+//print(numberLetters)
+
+// .isEmpty
+let isThisEmpty = ""
+//print(isThisEmpty.isEmpty)
+//print(lastName.isEmpty)
+
+// .lowercased()
+let shout = "HELLO I AM WANTED IN NUMEROUS COUNTRIES FOR WAR CRIMES"
+//print(shout)
+let shhhh = shout.lowercased()
+//print(shhhh)
+
+// .first
+let firstInitial = firstName.first!
+let lastInitial = lastName.first!
+print("\(firstInitial).\(lastInitial).")
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1223}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

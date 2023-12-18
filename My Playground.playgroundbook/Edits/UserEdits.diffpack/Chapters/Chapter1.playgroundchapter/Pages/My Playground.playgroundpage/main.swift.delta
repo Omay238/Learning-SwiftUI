@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var sidesOfASquare = 4
+
+if sidesOfASquare == 4 {
+    print("Exactly Four")
+}
+
+var numberOfPeople = 3
+
+if numberOfPeople != 3 {
+    print("There are NOT 3 people")
+} else {
+    print("There are 3 people")
+}
+
+var guess = 3
+
+if guess == 5 {
+    print("You guessed my number")
+} else if guess &gt; 5 {
+    print("You guessed too high")
+} else {
+    print("You guessed too low")
+}
+
+var sidesSquare = 4
+var sidesTriangle = 3
+
+if sidesSquare == 4 &amp;&amp; sidesTriangle == 3 {
+    print("Correct A")
+}
+
+if sidesSquare == 4 || sidesTriangle == 3 {
+    print("Correct B")
+}
+
+if !(sidesSquare == 4) {
+    print("Correct C")
+}
+
+if sidesSquare != 4 {
+    print("Correct D")
+}
+
+var isRainingOutside = true
+var hasAnUmbrella = true
+
+if isRainingOutside &amp;&amp; hasAnUmbrella {
+    print("Should stay dry")
+}
+
+if isRainingOutside || hasAnUmbrella {
+    print("Maybe stay dry")
+}
+
+var count = 0
+
+switch count {
+case 0:
+    print("Count is 0")
+    let foo = 8
+    print(foo)
+case 1:
+    print("Count is 1")
+case 7:
+    print("Count is 7")
+default:
+    print("other value")
+}
+
+switch count {
+case 0...2:
+    print("Count is now 0 to 2")
+case 3, 7, 9:
+    print("Count is 3, 7, or 9")
+default:
+    print("other value")
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1188}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

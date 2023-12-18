@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import UIKit
+
+var str = "Hello, playground"
+
+class StopWatch {
+    var seconds = 0.0
+    var minutes = 0.0
+    var hours = 0
+    
+    func getSeconds() -&gt; Double {
+        return self.seconds
+    }
+    
+    func resetStopWatch() {
+        self.seconds = 0.0
+        self.minutes = 0.0
+        self.hours = 0
+    }
+    
+    init() {
+        self.hours = 0
+        self.minutes = 0.0
+        self.seconds = 5.0
+    }
+    
+    convenience init(withHours hours: Int, minutes: Double, seconds: Double) {
+        //set the incoming parameters to the objects properties
+        self.init()
+        
+        self.hours = hours
+        self.minutes = minutes
+        self.seconds = seconds
+    }
+}
+//object 1
+var myStopWatch = StopWatch()
+
+myStopWatch.hours = 12
+myStopWatch.minutes = 32.0
+myStopWatch.seconds = 50.0
+
+print(myStopWatch.hours)
+print(myStopWatch.minutes)
+print(myStopWatch.seconds)
+
+myStopWatch.getSeconds()
+
+myStopWatch.resetStopWatch()
+
+print(myStopWatch.hours)
+print(myStopWatch.minutes)
+print(myStopWatch.seconds)
+
+var finishSeconds = myStopWatch.getSeconds()
+
+print(finishSeconds)
+//object 2
+var yourStopWatch = StopWatch()
+print(yourStopWatch.minutes)
+
+yourStopWatch.hours = 3
+yourStopWatch.minutes = 45
+yourStopWatch.seconds = 17
+
+print(yourStopWatch.hours)
+print(yourStopWatch.minutes)
+print(yourStopWatch.seconds)
+
+yourStopWatch.getSeconds()
+yourStopWatch.resetStopWatch()
+
+var thisStopWatch = StopWatch(withHours: 2, minutes: 12, seconds: 57)
+
+print(thisStopWatch.hours)
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1487}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

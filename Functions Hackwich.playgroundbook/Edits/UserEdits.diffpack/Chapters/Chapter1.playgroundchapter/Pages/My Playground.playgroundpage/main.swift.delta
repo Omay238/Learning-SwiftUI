@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>func sayHello() {
+    print("Hello, World!")
+}
+
+func sayHelloToMeWithName(name: String) {
+    let result = "Hello \(name)"
+    print(result)
+}
+
+func sayHelloToMeWithFullName(first: String, last: String) {
+    let result = "Hello \(first) \(last)"
+    print(result)
+}
+
+func labelLearning(parameterName: Int) {
+    print(parameterName)
+}
+
+func labelLearning(PleaseEnterNumber parameterName: Int) {
+    print(parameterName)
+}
+
+func labelLearning(_ parameterName: Int) {
+    print(parameterName)
+}
+
+func sumOfNumbersA(x: Double, y: Double) -&gt; Double {
+    let result = x + y
+    return result
+}
+
+func sumOfNumbersB(x: Double, y: Double) -&gt; Double {
+    return x + y
+}
+
+func Add(num1: String, num2: String) -&gt; String {
+    return num1 + num2 
+}
+
+func Add(num1: Int, num2: Int) -&gt; Int {
+    return num1 + num2
+}
+
+func Add(num1: Int, num2: Int, num3: Int) -&gt; Int {
+    return num1 + num2 + num3
+}
+
+func swapPlaces(left: Int, right: Int) -&gt; (Int, Int) {
+    return (right, left)
+}
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 974}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

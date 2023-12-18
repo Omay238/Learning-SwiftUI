@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Collections Hackwich
+
+// [] indicates a collection
+var myArrayOfFood: [String] = ["Butter", "Lemons", "Salad"]
+// arrays are indexed starting at 0!
+// index 0 = Butter
+// index 1 = Lemons
+// index 2 = Salad
+
+var myListOfNumbers = [1.9, 3, 6, 8]
+//will be inferred as a double because of decimal
+
+var myListOfNames = ["Ty", "Brian", "Leslie"]
+//inferred as string
+
+//print(myArrayOfFood)
+//print(myListOfNumbers)
+
+var shoppingList: [String] = []
+
+//print(shoppingList)
+
+//add to a list .append
+
+shoppingList.append("Cheerios")
+shoppingList.append("Cheese")
+shoppingList.append("Limes")
+
+//print(shoppingList)
+
+shoppingList.remove(at: 1)
+
+//print(shoppingList)
+
+shoppingList.append("An item")
+shoppingList.append("Even more items")
+shoppingList.append("Wow another item who could have guessed??? Everyone. That's right, everyone. Even a dumbass two year old could guess that, you fucking idiot. Fuck you and your pathetic, idiot, dumbass brain. You are a terrible person, honestly. Literally, fuck you, asshole.")
+
+//[Any] tells swift to be ready for any type of data to go in the list
+var anythingGoesList: [Any] = []
+
+anythingGoesList.append("String")
+anythingGoesList.append(3.141592653589793238462643383279502884197169399375105820974944)
+anythingGoesList.append(true)
+anythingGoesList.append(8)
+
+//print(anythingGoesList)
+
+var myArray: [String] = ["Phil", "Gary", "Karl"]
+
+myArray.count // get number of items in array
+myArray[0] // get item at index 0
+myArray[0] = "Jim" //changes the item at index 0
+//print(myArray)
+myArray.append("Omay")
+myArray.remove(at: 2)
+
+//Dictionaries
+var myAddressDictionary = ["city":"Fort Collins","state":"CO"]
+//print(myAddressDictionary)
+
+myAddressDictionary["street"] = "Mulberry"
+
+//print(myAddressDictionary)
+
+myAddressDictionary.updateValue("College", forKey: "street")
+
+//print(myAddressDictionary)
+
+myAddressDictionary.removeValue(forKey: "state")
+
+print(myAddressDictionary)
+
+//create an empty dictionary
+var myEmptyAddress = [String:String]()
+myEmptyAddress["city"] = "Sydney"
+myEmptyAddress["country"] = "Australia"
+print(myEmptyAddress)
+
+//let will not allow changes to key or value
+let myDictionary = ["name": "Omay"]
+
+//myDictionary.updateValue("Omay", forKey: "name")
+
+print(myDictionary)
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 2246}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
